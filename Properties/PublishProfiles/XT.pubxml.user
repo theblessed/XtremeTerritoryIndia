@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\ProjectPublish\XtremeTerritoryIndia</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".htaccess">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="404.html">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="bin/XtremeTerritoryIndia.dll">
+      <publishTime>10/25/2015 14:12:01</publishTime>
+    </File>
+    <File Include="css/custom.css">
+      <publishTime>10/24/2015 12:18:12</publishTime>
+    </File>
+    <File Include="css/helper.css">
+      <publishTime>10/25/2015 13:02:35</publishTime>
+    </File>
+    <File Include="css/menu.css">
+      <publishTime>10/24/2015 12:18:12</publishTime>
+    </File>
+    <File Include="css/theme.css">
+      <publishTime>10/25/2015 12:06:08</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/24/2015 14:09:04</publishTime>
+    </File>
+    <File Include="img/article/article-1.jpg">
+      <publishTime>10/24/2015 12:18:12</publishTime>
+    </File>
+    <File Include="img/article/article-2.jpg">
+      <publishTime>10/24/2015 12:18:12</publishTime>
+    </File>
+    <File Include="img/article/article-3.jpg">
+      <publishTime>10/24/2015 12:18:12</publishTime>
+    </File>
+    <File Include="img/article/article-4.jpg">
+      <publishTime>10/24/2015 12:18:12</publishTime>
+    </File>
+    <File Include="img/article/article-5.jpg">
+      <publishTime>10/24/2015 12:18:12</publishTime>
+    </File>
+    <File Include="img/clients/1.png">
+      <publishTime>10/24/2015 12:18:12</publishTime>
+    </File>
+    <File Include="img/clients/2.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/clients/3.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/clients/4.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/clients/5.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/clients/6.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/clients/7.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/error-bg.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/intro/parallax-intro-bg.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/intro/pballmain.jpg">
+      <publishTime>10/24/2015 13:06:12</publishTime>
+    </File>
+    <File Include="img/intro/slider/intro-slide-bg-1.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/intro/slider/intro-slide-bg-2.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/intro/slider/intro-slide-bg-3.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/intro/video-bg/video-bg.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/logo_only.jpg">
+      <publishTime>10/24/2015 12:42:41</publishTime>
+    </File>
+    <File Include="img/map-bg.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/menu/cd-arrow.svg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/caption-img/1.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/caption-img/2.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/caption-img/3.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/caption-img/4.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/caption-img/5.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/caption-img/6.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/caption-img/7.png">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/portfolio-heading-img.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/portfolio-img-1.jpg">
+      <publishTime>10/24/2015 12:18:13</publishTime>
+    </File>
+    <File Include="img/portfolio/portfolio-img-2.jpg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/portfolio/portfolio-img-3.jpg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/portfolio/portfolio-img-4.jpg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/portfolio/portfolio-img-5.jpg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/portfolio/portfolio-img-6.jpg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/portfolio/portfolio-img-7.jpg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/team.jpg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/the_eagle_final_3.png">
+      <publishTime>10/24/2015 12:53:37</publishTime>
+    </File>
+    <File Include="img/Thumbs.db">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/tilebacks/archery.jpg">
+      <publishTime>10/25/2015 12:37:46</publishTime>
+    </File>
+    <File Include="img/tilebacks/byu-water-balloon-fight.jpg">
+      <publishTime>10/25/2015 12:56:03</publishTime>
+    </File>
+    <File Include="img/tilebacks/camping.jpg">
+      <publishTime>10/25/2015 12:44:00</publishTime>
+    </File>
+    <File Include="img/tilebacks/climbing_wall.jpg">
+      <publishTime>10/25/2015 12:56:03</publishTime>
+    </File>
+    <File Include="img/tilebacks/paintball.jpg">
+      <publishTime>10/25/2015 11:49:11</publishTime>
+    </File>
+    <File Include="img/tilebacks/stargazing_zoom.jpg">
+      <publishTime>10/25/2015 12:56:03</publishTime>
+    </File>
+    <File Include="img/tilebacks/Team-building-activities-kids.jpg">
+      <publishTime>10/25/2015 12:56:03</publishTime>
+    </File>
+    <File Include="img/tilebacks/Zorbing.jpg">
+      <publishTime>10/25/2015 12:44:00</publishTime>
+    </File>
+    <File Include="img/work-bg.jpg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="img/xtreme-logo_black.jpg">
+      <publishTime>10/25/2015 11:05:58</publishTime>
+    </File>
+    <File Include="img/xtreme-logo_transparent.png">
+      <publishTime>10/25/2015 11:12:56</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>10/25/2015 13:45:11</publishTime>
+    </File>
+    <File Include="js/custom.js">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="js/theme.js">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="slideshow-intro.html">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/css/font-awesome.min.css">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/imagesloaded.pkgd.min.js">
+      <publishTime>10/24/2015 12:18:14</publishTime>
+    </File>
+    <File Include="vendor/jquery.counterup.min.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/jquery.easing.min.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/jquery.stellar.min.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/jquery/jquery-1.11.1.min.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/masonry.pkgd.min.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/owl-carousel/css/owl.carousel.css">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/owl-carousel/css/owl.carousel.plugins.css">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/owl-carousel/css/owl.theme.default.css">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/owl-carousel/info.txt">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/owl-carousel/js/owl.carousel.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/owl-carousel/js/owl.carousel.plugins.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/smoothscroll.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/waypoints.min.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/ytplayer/css/jquery.mb.YTPlayer.css">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/ytplayer/css/jquery.mb.YTPlayer.min.css">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/ytplayer/images/raster%402x.png">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/ytplayer/images/raster.png">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/ytplayer/images/raster_dot%402x.png">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/ytplayer/images/raster_dot.png">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="vendor/ytplayer/js/jquery.mb.YTPlayer.min.js">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="video-intro.html">
+      <publishTime>10/24/2015 12:18:15</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/25/2015 14:00:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+c:\users\sony\documents\visual studio 2015\Projects\XtremeTerritoryIndia\XtremeTerritoryIndia\bin\XtremeTerritoryIndia.dll.config
+c:\users\sony\documents\visual studio 2015\Projects\XtremeTerritoryIndia\XtremeTerritoryIndia\bin\XtremeTerritoryIndia.dll
+c:\users\sony\documents\visual studio 2015\Projects\XtremeTerritoryIndia\XtremeTerritoryIndia\bin\XtremeTerritoryIndia.pdb
+c:\users\sony\documents\visual studio 2015\Projects\XtremeTerritoryIndia\XtremeTerritoryIndia\obj\Debug\XtremeTerritoryIndia.csprojResolveAssemblyReference.cache
+c:\users\sony\documents\visual studio 2015\Projects\XtremeTerritoryIndia\XtremeTerritoryIndia\obj\Debug\XtremeTerritoryIndia.dll
+c:\users\sony\documents\visual studio 2015\Projects\XtremeTerritoryIndia\XtremeTerritoryIndia\obj\Debug\XtremeTerritoryIndia.pdb

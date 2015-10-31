@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{693D9504-306D-449C-8A23-D4888AC8C3E8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XtremeTerritoryIndia</RootNamespace>
+    <AssemblyName>XtremeTerritoryIndia</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".htaccess" />
+    <Content Include="img\Thumbs.db" />
+    <Content Include="img\tilebacks\archery.jpg" />
+    <Content Include="img\tilebacks\byu-water-balloon-fight.jpg" />
+    <Content Include="img\tilebacks\camping.jpg" />
+    <Content Include="img\tilebacks\climbing_wall.jpg" />
+    <Content Include="img\tilebacks\paintball.jpg" />
+    <Content Include="img\tilebacks\stargazing_zoom.jpg" />
+    <Content Include="img\tilebacks\Team-building-activities-kids.jpg" />
+    <Content Include="img\tilebacks\Zorbing.jpg" />
+    <Content Include="img\xtreme-logo_black.jpg" />
+    <Content Include="img\xtreme-logo_transparent.png" />
+    <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="vendor\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\XT.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\helper.css" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="img\article\article-1.jpg" />
+    <Content Include="img\article\article-2.jpg" />
+    <Content Include="img\article\article-3.jpg" />
+    <Content Include="img\article\article-4.jpg" />
+    <Content Include="img\article\article-5.jpg" />
+    <Content Include="img\clients\1.png" />
+    <Content Include="img\clients\2.png" />
+    <Content Include="img\clients\3.png" />
+    <Content Include="img\clients\4.png" />
+    <Content Include="img\clients\5.png" />
+    <Content Include="img\clients\6.png" />
+    <Content Include="img\clients\7.png" />
+    <Content Include="img\error-bg.jpg" />
+    <Content Include="img\intro\parallax-intro-bg.jpg" />
+    <Content Include="img\intro\pballmain.jpg" />
+    <Content Include="img\intro\slider\intro-slide-bg-1.jpg" />
+    <Content Include="img\intro\slider\intro-slide-bg-2.jpg" />
+    <Content Include="img\intro\slider\intro-slide-bg-3.jpg" />
+    <Content Include="img\intro\video-bg\video-bg.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo_only.jpg" />
+    <Content Include="img\map-bg.jpg" />
+    <Content Include="img\menu\cd-arrow.svg" />
+    <Content Include="img\portfolio\caption-img\1.png" />
+    <Content Include="img\portfolio\caption-img\2.png" />
+    <Content Include="img\portfolio\caption-img\3.png" />
+    <Content Include="img\portfolio\caption-img\4.png" />
+    <Content Include="img\portfolio\caption-img\5.png" />
+    <Content Include="img\portfolio\caption-img\6.png" />
+    <Content Include="img\portfolio\caption-img\7.png" />
+    <Content Include="img\portfolio\portfolio-heading-img.jpg" />
+    <Content Include="img\portfolio\portfolio-img-1.jpg" />
+    <Content Include="img\portfolio\portfolio-img-2.jpg" />
+    <Content Include="img\portfolio\portfolio-img-3.jpg" />
+    <Content Include="img\portfolio\portfolio-img-4.jpg" />
+    <Content Include="img\portfolio\portfolio-img-5.jpg" />
+    <Content Include="img\portfolio\portfolio-img-6.jpg" />
+    <Content Include="img\portfolio\portfolio-img-7.jpg" />
+    <Content Include="img\team.jpg" />
+    <Content Include="img\the_eagle_final_3.png" />
+    <Content Include="img\work-bg.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\theme.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="slideshow-intro.html" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="vendor\imagesloaded.pkgd.min.js" />
+    <Content Include="vendor\jquery.counterup.min.js" />
+    <Content Include="vendor\jquery.easing.min.js" />
+    <Content Include="vendor\jquery.stellar.min.js" />
+    <Content Include="vendor\jquery\jquery-1.11.1.min.js" />
+    <Content Include="vendor\masonry.pkgd.min.js" />
+    <Content Include="vendor\owl-carousel\css\owl.carousel.css" />
+    <Content Include="vendor\owl-carousel\css\owl.carousel.plugins.css" />
+    <Content Include="vendor\owl-carousel\css\owl.theme.default.css" />
+    <Content Include="vendor\owl-carousel\info.txt" />
+    <Content Include="vendor\owl-carousel\js\owl.carousel.js" />
+    <Content Include="vendor\owl-carousel\js\owl.carousel.plugins.js" />
+    <Content Include="vendor\smoothscroll.js" />
+    <Content Include="vendor\waypoints.min.js" />
+    <Content Include="vendor\ytplayer\css\jquery.mb.YTPlayer.css" />
+    <Content Include="vendor\ytplayer\css\jquery.mb.YTPlayer.min.css" />
+    <Content Include="vendor\ytplayer\images\raster%402x.png" />
+    <Content Include="vendor\ytplayer\images\raster.png" />
+    <Content Include="vendor\ytplayer\images\raster_dot%402x.png" />
+    <Content Include="vendor\ytplayer\images\raster_dot.png" />
+    <Content Include="vendor\ytplayer\js\jquery.mb.YTPlayer.min.js" />
+    <Content Include="video-intro.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3748</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3748/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
