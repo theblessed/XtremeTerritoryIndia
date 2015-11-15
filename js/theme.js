@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////
 // Page preloader (display loading animation while page loads)
 ////////////////////////////////////////////////////////////////
-
+var $container;
 // Wait for window load
 $(window).load(function() {
     // Animate loader off screen
@@ -235,13 +235,13 @@ $(document).ready(function(){
 });
 
 function init_masonry(){
-    var $container = $('.masonry');
+    $container = $('.masonry');
 
     $container.imagesLoaded( function(){
         $container.masonry({
           itemSelector: '.masonry .box',
           isAnimated: true
-        });
+        });        
     });
 }
 

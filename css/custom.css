@@ -5,3 +5,8 @@ Add here all your CSS customizations
 Note: IE9 doesn't support transitions and animations
 
 -------------------------------------------------------*/
+
+
+.galleryImage {
+    width:100%;
+}
