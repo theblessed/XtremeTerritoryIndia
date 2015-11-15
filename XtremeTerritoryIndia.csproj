@@ -70,7 +70,6 @@
     <Content Include="img\tilebacks\Zorbing.jpg" />
     <Content Include="img\xtreme-logo_black.jpg" />
     <Content Include="img\xtreme-logo_transparent.png" />
-    <Content Include="js\common.js" />
     <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
